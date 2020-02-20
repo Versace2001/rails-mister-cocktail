@@ -1,0 +1,6 @@
+<h1>2 - New cocktail:3</h1>
+<p>Find me in app/views/cocktails/new.html.erb</p>
+<%= form_for(@cocktail) do |f| %>
+<%= f.label :name %> <%= f.text_field :name, class: 'form-control' %>
+<%= f.submit class: 'btn btn-primary' %>
+<% end %>
